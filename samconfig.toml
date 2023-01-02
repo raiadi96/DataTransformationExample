@@ -1,0 +1,22 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "DataTransformationStack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-pm1ratz4z2mp"
+s3_prefix = "DataTransformationStack"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+
+[us-east-1]
+[us-east-1.deploy]
+[us-east-1.deploy.parameters]
+stack_name = "DataTransformationStack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-pm1ratz4z2mp"
+s3_prefix = "DataTransformationStack"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
